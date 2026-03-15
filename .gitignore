@@ -1,0 +1,12 @@
+statement_data.json
+statement_data.min.json
+ration_seed.json
+parse_statement.py
+generate_rations.py
+build_loader.py
+serve.py
+load_statement.html
+*.pyc
+__pycache__/
+.DS_Store
+ration_inline.txt

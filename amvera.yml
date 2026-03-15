@@ -1,0 +1,14 @@
+---
+meta:
+  environment: nginx
+  toolchain:
+    name: nginx
+    version: latest
+
+build:
+  type: static
+
+run:
+  type: http
+  persistenceMount: /data
+  containerPort: 80
