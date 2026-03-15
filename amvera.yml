@@ -1,14 +1,10 @@
 ---
 meta:
-  environment: nginx
+  environment: docker
   toolchain:
-    name: nginx
-    version: latest
-
+    name: docker
+    version: "1"
 build:
-  type: static
-
+  dockerfile: Dockerfile
 run:
-  type: http
-  persistenceMount: /data
   containerPort: 80
